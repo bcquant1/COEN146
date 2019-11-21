@@ -86,10 +86,4 @@ int main (int argc, char *argv[])
 		++i;
 	}
 	fclose(dest_file);
-	
-	
-	//bzero(buffer,256);
-	//n = read(newsockfd,buffer,255);
-	//if (n < 0) error("ERROR reading from socket");
-	//printf("Here is the message: %s\n",buffer);
 }
