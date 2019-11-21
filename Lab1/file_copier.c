@@ -34,9 +34,6 @@ double copier(FILE *s_file, FILE *d_file)
        
 }
 
-
-
-
 int main()
 {
     char user_option[100];
