@@ -30,8 +30,7 @@ double copier(FILE *s_file, FILE *d_file)
     while ( fread(buffer, 1,1, s_file) == 1){
 	fwrite (buffer,1,1,d_file);
     }   
-    return 0;
-       
+    return 0;       
 }
 
 int main()
@@ -109,13 +108,11 @@ int main()
         }
 
     }
-    
     else
     {
         printf("Invalid option!");
         return 0;
-    }
-    
+    } 
     return 0;
 }
 
